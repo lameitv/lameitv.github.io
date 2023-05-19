@@ -1,23 +1,20 @@
 var emails = [
-    'dizhi9191@gmail.com'
+    'contact@lamei.tv'
 ];
 var newestUrls = [
-    'https://jiuse001.com',
-	'https://jiuse002.com',
-    'https://jiuse.icu'
+    'https://lamei.tv'
 ];
 var otherUrls = [
-    'https://dizhi91.github.io',
-    'https://jiuse123.com'
+    'https://lameitv.github.io'
 ];
 var foreverUrls = [
-    'https://91porny.com'
+    'https://lamei.tv'
 ];
 var notices = [
     '* 我们推荐PC和Andriod手机用户使用Chrome(谷歌)浏览器访问，iPhone用户我们建议您使用手机自带Safria浏览器访问。',
     //'* 为了防止域名劫持而无法访问，请设置手机和PC的DNS，我们推荐使用8.8.8.8和1.1.1.1。',
     '* 大陆地区用户我们建议您可以使用VPN或者代理的方式来访问我们的永久地址。',
-	'* 大陆地区用户我们强烈建议您收藏当前页面(jiuse123.com)。'
+	'* 大陆地区用户我们强烈建议您收藏当前页面(lameitv.github.io)。'
 ];
 
 function createFieldElem(option) {
@@ -62,11 +59,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '九 <span>色</span><span class="flag">视频</span>'
+    logoElem.innerHTML = '辣妹<span class="flag">TV</span>'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问九色视频'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问辣妹TV'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
