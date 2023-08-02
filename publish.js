@@ -2,6 +2,7 @@ var emails = [
     'contact@lamei.tv'
 ];
 var newestUrls = [
+    'https://tvtv.lameitv2.com',
     'https://v.lameitv1.com'
 ];
 var otherUrls = [
