@@ -2,6 +2,8 @@ var emails = [
     'contact@lamei.tv'
 ];
 var newestUrls = [
+    'https://gov.lameitv4.com',
+    'https://fghhj.lameitv3.com',
     'https://tvtv.lameitv2.com',
     'https://v.lameitv1.com'
 ];
@@ -29,7 +31,7 @@ function createFieldElem(option) {
     var fieldClass = ['field', classStr].join(' ');
     fieldElem.setAttribute('class', fieldClass);
 
-    var titleElem = document.createElement('h4');
+    var titleElem = document.createElement('h2');
     titleElem.setAttribute('class', 'title');
     titleElem.innerHTML = title;
     fieldElem.appendChild(titleElem);
@@ -60,11 +62,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '辣妹<span class="flag">TV</span>'
+    logoElem.innerHTML = '<h1 class="flag">辣妹视频</h1>'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问辣妹TV'});
+    var newestFieldElem = createFieldElem({title: '辣妹视频最新地址', items: newestUrls, text: '请使用https://协议访问辣妹视频'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
@@ -76,7 +78,7 @@ window.onload = function () {
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
-    var foreverFieldElem = createFieldElem({title: '永久地址', items: foreverUrls});
+    var foreverFieldElem = createFieldElem({title: '辣妹视频永久地址', items: foreverUrls});
     mainElem.appendChild(foreverFieldElem);
 
     // Description
