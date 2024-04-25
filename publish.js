@@ -2,10 +2,7 @@ var emails = [
     'contact@lamei.tv'
 ];
 var newestUrls = [
-    'https://gov.lameitv4.com',
-    'https://fghhj.lameitv3.com',
-    'https://tvtv.lameitv2.com',
-    'https://v.lameitv1.com'
+    'https://jrtg.lm900v.com'
 ];
 var otherUrls = [
     'https://lameitv.github.io'
