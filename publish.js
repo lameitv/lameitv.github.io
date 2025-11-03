@@ -1,8 +1,8 @@
 var emails = [
-    'contact@xsese.com'
+    'contact@feitu.tv'
 ];
 var newestUrls = [
-    'https://xsese.com'
+    'https://feitu.tv'
 ];
 var otherUrls = [
     'https://lameitv.github.io'
